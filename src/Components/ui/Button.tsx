@@ -10,12 +10,12 @@ interface ButtonProps {
   text: string;
 }
 const variantStyles = {
-  primary: "bg-blue-600 text-white rounded-md",
-  secondary: "bg-blue-400 text-white rounded-full",
+  primary: "bg-[#0084A3] text-white rounded-md",
+  secondary: "bg-[#505C73] text-white rounded-full",
 };
 const sizeStyles = {
   sm: "py-2 px-2 text-sm",
-  md: "py-4 px-4 text-md ",
+  md: "py-2 px-4 text-md ",
   lg: "py-6 px-6 text-lg",
 };
 const defaultStyles = " flex items-center justify-center gap-2";
