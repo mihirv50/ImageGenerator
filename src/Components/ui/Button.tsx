@@ -10,13 +10,13 @@ interface ButtonProps {
   text: string;
 }
 const variantStyles = {
-  primary: "bg-[#0084A3] text-white rounded-md",
-  secondary: "bg-[#505C73] text-white rounded-full",
+  primary: "bg-violet-600 text-white rounded-md",
+  secondary: "bg-violet-300 text-white rounded-md",
 };
 const sizeStyles = {
   sm: "py-2 px-2 text-sm",
   md: "py-2 px-4 text-md ",
-  lg: "py-6 px-6 text-lg",
+  lg: "py-2 px-6 text-lg",
 };
 const defaultStyles = " flex items-center justify-center gap-2";
 
